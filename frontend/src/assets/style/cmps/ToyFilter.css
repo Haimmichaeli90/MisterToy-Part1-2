@@ -1,0 +1,47 @@
+.toy-filter {
+  background-color: var(--clr2bg);
+  padding: 1em;
+}
+
+.toy-filter form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.toy-filter {
+  background-color: var(--clr2bg);
+  padding: 1em;
+}
+
+.toy-filter form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.toy-filter select {
+  margin-bottom: 1em;
+}
+
+.toy-filter .labels-container {
+  display: flex;
+  flex-direction: row-reverse; /* For right-to-left display */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.toy-filter .label-item {
+  padding: 5px 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toy-filter .label-item.active {
+  background-color: #ffa500; /* Light orange */
+  color: white;
+}
+
+.toy-filter input[type="text"] {
+  margin-bottom: 1em;
+}
